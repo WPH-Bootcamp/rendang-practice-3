@@ -7,14 +7,11 @@
 
 * {
   font-size: 16px;
-}
-
-body {
-  background-color: #1f1f1f;
+  color: white;
 }
 
 .bbh-sans {
   /* samakan dengan nama font family nya */
   font-family: "BBH sans";
-  color: white;
+  color: rgba(30, 255, 0, 0.5);
 }

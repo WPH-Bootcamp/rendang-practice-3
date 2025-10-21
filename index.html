@@ -6,6 +6,9 @@
     <title>class 3 - css part 1</title>
 
     <style>
+      * {
+        font-family: "Roboto";
+      }
       /* komentar sama menggunakan ctrl/cmd + / */
       /* class */
       .text {
@@ -20,10 +23,16 @@
       #text-id {
         color: cyan;
         font-family: "Roboto";
+        line-height: 24px; /* vertical */
+        letter-spacing: 1px; /* horizontal */
+        text-transform: capitalize;
+        text-decoration: line-through;
+        text-align: center;
       }
     </style>
     <!-- 3. eksternal css -->
     <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/background.css" />
 
     <!-- embed fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -41,5 +50,20 @@
     <p class="text bold">hello worlds with internal css</p>
     <p id="text-id">hello worlds with internal css with id</p>
     <p class="bbh-sans">lorem ipsum</p>
+
+    <h1>menu</h1>
+    <a href="./html/order.html">to order</a>
+    <br />
+    <a href="./html/display.html">to display</a>
+    <br />
+    <a href="./html/box-model.html">to box model</a>
+    <br />
+    <a href="./html/position.html">to positions</a>
+    <br />
+    <a href="./html/margin-collapse.html">to margin collapsing</a>
+    <br />
+    <a href="./html/background.html">to background</a>
+    <br />
+    <a href="./html/overflow.html">to overflow</a>
   </body>
 </html>
