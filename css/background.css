@@ -1,0 +1,15 @@
+body {
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.container-bg {
+  width: 300px;
+  height: 300px;
+  border: 3px solid white;
+  /* background-image: url("../assets/images/logo-color.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  background: url("../assets/images/logo-color.svg") no-repeat center/cover;
+}

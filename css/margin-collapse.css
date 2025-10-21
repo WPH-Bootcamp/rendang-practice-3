@@ -1,0 +1,53 @@
+/*
+menggabungkan 2 margin vertikal dari elemen elemen
+block yang bersebelahan menjadi 1 margin
+*/
+
+.box1 {
+  margin-bottom: 30px;
+  background-color: lightblue;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.box2 {
+  margin-top: 20px;
+  background-color: lightgreen;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.parent {
+  margin-top: 20px;
+  background-color: lightcoral;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.child {
+  margin-top: 30px;
+  background-color: lightseagreen;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+/* border radius */
+
+.border-radius {
+  /* border-radius: 10%; */
+  /* border-radius: 50%; */
+  /* value berbeda setiap sudut */
+  border-radius: 10px 20px 30px 40px;
+}
+
+.elipse {
+  width: 120px;
+  height: 40px;
+  background-color: #fff;
+  margin-top: 50px;
+  border-radius: 5px;
+}

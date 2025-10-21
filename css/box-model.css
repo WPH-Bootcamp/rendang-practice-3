@@ -1,0 +1,35 @@
+/* margin dan padding punya beberapa value */
+/* 1 value => semua atas kanan kiri bawah sama */
+/* 2 value => atas & bawah + kiri & kanan */
+/* 3 value => atas + kiri & kanan + bawah */
+/* 4 value => atas + kanan + bawah + kiri */
+
+.title {
+  /* margin: 10px 20px 30px 5px; */
+  margin: 10px;
+  border: 10px solid white;
+  padding: 20px;
+}
+/* padding: jarak antar elemen content & border */
+/* margin: jarak antar elemen diluar border */
+
+/* box sizing border box */
+.box-content {
+  width: 200px;
+  padding: 20px;
+  border: 5px solid white;
+  box-sizing: content-box;
+}
+
+.box-border {
+  width: 200px;
+  padding: 20px;
+  border: 5px solid white;
+  box-sizing: border-box;
+}
+
+/* biasanya menggunakan seperti ini */
+
+* {
+  box-sizing: border-box;
+}
