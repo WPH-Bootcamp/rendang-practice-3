@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>class 3 - css part 1</title>
+
+    <style>
+      /* komentar sama menggunakan ctrl/cmd + / */
+      /* class */
+      .text {
+        color: green;
+      }
+      .bold {
+        font-weight: 900;
+        font-style: italic;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      /* id */
+      #text-id {
+        color: cyan;
+        font-family: "Roboto";
+      }
+    </style>
+    <!-- 3. eksternal css -->
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <!-- embed fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ada 3 cara -->
+    <!-- 1. inline css -->
+    <p style="color: red">hello worlds with inline css</p>
+    <!-- 2. internal css (cek di head) -->
+    <p class="text bold">hello worlds with internal css</p>
+    <p id="text-id">hello worlds with internal css with id</p>
+    <p class="bbh-sans">lorem ipsum</p>
+  </body>
+</html>

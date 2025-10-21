@@ -1,0 +1,20 @@
+/* internal fonts */
+@font-face {
+  /* nama font family, bisa bebas */
+  font-family: "BBH sans";
+  src: url("../assets/fonts/BBHSansBartle-Regular.ttf");
+}
+
+* {
+  font-size: 16px;
+}
+
+body {
+  background-color: #1f1f1f;
+}
+
+.bbh-sans {
+  /* samakan dengan nama font family nya */
+  font-family: "BBH sans";
+  color: white;
+}
